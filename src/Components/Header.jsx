@@ -14,8 +14,10 @@ function Header() {
 
   return (
 <header style={{ background: 'linear-gradient(115deg, #004769, #000000)' }} className="text-black fixed w-full top-0 z-50">      
-  <div className="container mx-auto flex justify-between items-center py-5 px-6">
-        <div className="text-4xl font-extrabold">Kissu-Music</div>
+  <div className="container mx-auto flex justify-between items-center py-2 px-4">
+        <div className="flex items-center">
+          <img src="/kissu-music-high-resolution-logo-grayscale-transparent.svg" alt="Kissu Music Logo" className="h-8 mx-auto" />
+        </div>
 
         {/* Hamburger menu button */}
         <button
