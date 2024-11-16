@@ -4,7 +4,7 @@ import App from '../App';
 import { Outlet } from 'react-router-dom';
 
 function MainApp() {
-    const [language, setLanguage] = useState('english');
+    const [language, setLanguage] = useState('hindi');
   
     return (
       <>
