@@ -9,7 +9,7 @@ function MainApp() {
     return (
       <>
         <Header />
-        <main className="pt-24">
+        <main className="pt-12">
           <Outlet  />
         </main>
       </>
