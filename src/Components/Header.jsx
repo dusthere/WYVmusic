@@ -15,7 +15,7 @@ function Header() {
   return (
     <header className="bg-gradient-to-b from-gray-300 to-gray-500 text-black fixed w-full top-0 z-50">
       <div className="container mx-auto flex justify-between items-center py-7 px-8">
-        <div className="text-4xl font-extrabold">WYVm</div>
+        <div className="text-4xl font-extrabold">Kissu-Music</div>
 
         {/* Hamburger menu button */}
         <button
